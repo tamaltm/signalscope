@@ -12,7 +12,7 @@
 
 - **What this is:** An original mobile prototype for scanning, filtering, and understanding fictional insider-activity signals.
 - **Who it is for:** Mobile users and ArkLab AI assignment reviewers
-- **Current phase:** Phase 4 Screener complete; Phase 5 Trade Details next
+- **Current phase:** Phase 5 Trade Details complete; Phase 6 testing and refinement next
 
 ## Commands
 

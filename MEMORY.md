@@ -5,8 +5,8 @@ Update this after major decisions, completed phases, or bugs that future agents 
 ## Current State
 
 - Current task: Build the SignalScope ArkLab AI screening assignment
-- Current phase: Phase 3 Market Pulse complete
-- Next step: Implement the full Screener search, filter groups, result count, empty state, and reset behavior
+- Current phase: Phase 4 Screener complete
+- Next step: Complete Trade Details metrics, chart, education, exact disclaimer, and missing-record fallback
 - Blocked by: none
 
 ## Decisions
@@ -29,5 +29,6 @@ Update this after major decisions, completed phases, or bugs that future agents 
 - [x] Core data model
 - [x] Design tokens and reusable component set
 - [x] Market Pulse screen with derived summaries, top signals, latest activity, and navigation
+- [x] Screener search, three filter groups, combined results, count, empty state, reset, and trade navigation
 - [ ] Core MVP flow
 - [ ] Launch checks

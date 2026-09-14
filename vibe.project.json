@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "0.3.0",
+  "mode": "guided",
+  "tools": [
+    "claude",
+    "codex"
+  ],
+  "documents": {
+    "prd": "docs/PRD-SignalScope-MVP.md",
+    "techdesign": "docs/TechDesign-SignalScope-MVP.md"
+  }
+}

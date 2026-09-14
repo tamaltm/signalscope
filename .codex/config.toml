@@ -1,0 +1,4 @@
+# Codex project config for SignalScope
+# Keep sandbox and approval settings conservative. AGENTS.md is the source of truth.
+
+# Model intentionally inherits the user's Codex default.

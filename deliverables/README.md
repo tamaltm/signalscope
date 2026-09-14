@@ -5,7 +5,7 @@ Local artifacts generated during Phase 7:
 | Artifact | Purpose |
 |---|---|
 | `SignalScope-1.0.0-preview.apk` | Direct-install Android preview for `arm64-v8a` and `x86_64` |
-| `SignalScope-demo.mp4` | 69-second emulator walkthrough |
+| `SignalScope-demo.mp4` | 1-minute-54-second emulator walkthrough |
 
 APK SHA-256:
 

@@ -5,9 +5,9 @@ Update this after major decisions, completed phases, or bugs that future agents 
 ## Current State
 
 - Current task: Build the SignalScope ArkLab AI screening assignment
-- Current phase: Phase 6 testing and refinement complete
-- Next step: Build/install the preview APK, smoke-test Android, and capture submission screenshots/video
-- Blocked by: none
+- Current phase: Phase 7 packaging and native verification complete
+- Next step: Upload the APK/video to GitHub Releases or Drive and add final submission URLs
+- Blocked by: Expo cloud build is not authenticated; local Android build completed successfully instead
 
 ## Decisions
 
@@ -20,7 +20,8 @@ Update this after major decisions, completed phases, or bugs that future agents 
 
 ## Known Issues
 
-- An authenticated EAS preview APK build will require the user's Expo account after local implementation checks pass.
+- The verified local APK is internally signed and supports modern `arm64-v8a` devices plus the `x86_64` emulator; Play Store signing is out of scope.
+- `npm audit` reports transitive moderate advisories whose force-fix proposes breaking Expo/navigation downgrades.
 
 ## Completed
 
@@ -33,4 +34,5 @@ Update this after major decisions, completed phases, or bugs that future agents 
 - [x] Trade Details metrics, mock activity chart, educational context, exact disclaimer, and missing-record fallback
 - [x] Core MVP flow
 - [x] README, data/disclaimer regression coverage, browser acceptance journey, and 375–430 px visual checks
-- [ ] Launch checks
+- [x] Local release APK build, Android 36 installation/offline smoke test, three screenshots, and 69-second demo video
+- [x] Launch checks

@@ -44,7 +44,16 @@ The `preview` EAS profile is configured to produce an installable APK:
 npx eas-cli@latest build --platform android --profile preview
 ```
 
-This command requires an authenticated Expo account. The final APK must be installed and smoke-tested on an Android device or emulator before submission.
+This command requires an authenticated Expo account. A locally compiled preview APK was also installed and smoke-tested on an Android 36 emulator during final verification.
+
+## Submission artifacts
+
+- APK: `deliverables/SignalScope-1.0.0-preview.apk` (45 MB, locally built for `arm64-v8a` and `x86_64`)
+- Demo: `deliverables/SignalScope-demo.mp4` (69 seconds)
+- Screenshots: `screenshots/01-market-pulse.png`, `screenshots/02-latest-trades.png`, and `screenshots/03-trade-details.png`
+- APK SHA-256: `17180921ffb72baba5731a85ed770760f69f4298f1f838b835f606b3a4f81312`
+
+The APK and video are intentionally excluded from Git history. Publish them through a GitHub Release or the assignment's Drive delivery folder, then add those final URLs here before submission.
 
 ## Design and implementation decisions
 
@@ -69,7 +78,7 @@ This command requires an authenticated Expo account. The final APK must be insta
 - Static demo records do not update.
 - No real filings, accounts, alerts, portfolios, or remote services are included.
 - The bar chart is illustrative demo content, not a market-data visualization.
-- Browser checks supplement but do not replace final testing of the installed Android APK.
+- The local APK uses an internal debug certificate and is not intended for Play Store production release.
 
 ## AI-use disclosure
 

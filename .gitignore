@@ -40,3 +40,7 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Local release artifacts (publish through a release/Drive, not Git history)
+/deliverables/*.apk
+/deliverables/*.mp4

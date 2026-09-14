@@ -3,6 +3,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { MockActivityChart } from '../components/MockActivityChart';
 import { Screen } from '../components/Screen';
 import { SignalBadge } from '../components/SignalBadge';
+import { REQUIRED_DISCLAIMER } from '../constants/content';
 import { mockTrades } from '../data/mockTrades';
 import { RootStackParamList } from '../navigation/types';
 import { colors } from '../theme/colors';
@@ -10,8 +11,6 @@ import { radii, spacing } from '../theme/spacing';
 import { formatCompactCurrency, formatCurrency, formatDate, formatFiledAt, formatShares } from '../utils/formatters';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'TradeDetails'>;
-
-export const REQUIRED_DISCLAIMER = 'This prototype uses mock data for demonstration only. Insider-trading filings are public disclosures and do not constitute investment advice. Past activity does not guarantee future stock performance.';
 
 function Metric({ label, value, accent }: { label: string; value: string; accent?: 'purchase' | 'sale' }) {
   const color = accent === 'purchase' ? colors.purchase : accent === 'sale' ? colors.sale : colors.text;

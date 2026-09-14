@@ -1,0 +1,1 @@
+export const REQUIRED_DISCLAIMER = 'This prototype uses mock data for demonstration only. Insider-trading filings are public disclosures and do not constitute investment advice. Past activity does not guarantee future stock performance.';

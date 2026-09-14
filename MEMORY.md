@@ -5,8 +5,8 @@ Update this after major decisions, completed phases, or bugs that future agents 
 ## Current State
 
 - Current task: Build the SignalScope ArkLab AI screening assignment
-- Current phase: Phase 5 Trade Details complete
-- Next step: Run Phase 6 testing, accessibility refinement, and release-readiness checks
+- Current phase: Phase 6 testing and refinement complete
+- Next step: Build/install the preview APK, smoke-test Android, and capture submission screenshots/video
 - Blocked by: none
 
 ## Decisions
@@ -32,4 +32,5 @@ Update this after major decisions, completed phases, or bugs that future agents 
 - [x] Screener search, three filter groups, combined results, count, empty state, reset, and trade navigation
 - [x] Trade Details metrics, mock activity chart, educational context, exact disclaimer, and missing-record fallback
 - [x] Core MVP flow
+- [x] README, data/disclaimer regression coverage, browser acceptance journey, and 375–430 px visual checks
 - [ ] Launch checks

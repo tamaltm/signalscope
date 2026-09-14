@@ -7,7 +7,7 @@ import { SignalBadge } from './SignalBadge';
 export function TradeCard({ trade, onPress }: { trade: InsiderTrade; onPress: () => void }) {
   const color = trade.type === 'purchase' ? colors.purchase : colors.sale;
   return <Pressable accessibilityRole="button" accessibilityLabel={`Open ${trade.company} ${trade.type} details`} onPress={onPress} style={({pressed})=>[styles.card,pressed&&styles.pressed]}>
-    <View style={styles.row}><View style={styles.symbol}><Text style={styles.symbolText}>{trade.ticker}</Text></View><View style={styles.identity}><Text numberOfLines={1} style={styles.company}>{trade.company}</Text><Text style={styles.meta}>{trade.insider} · {trade.role}</Text></View><SignalBadge strength={trade.signalStrength} /></View>
+    <View style={styles.row}><View style={styles.symbol}><Text style={styles.symbolText}>{trade.ticker}</Text></View><View style={styles.identity}><Text numberOfLines={2} style={styles.company}>{trade.company}</Text><Text style={styles.meta}>{trade.insider} · {trade.role}</Text></View><SignalBadge strength={trade.signalStrength} /></View>
     <View style={styles.row}><Text style={[styles.type,{color}]}>{trade.type==='purchase'?'↑ Purchase':'↓ Sale'}</Text><View style={styles.valueWrap}><Text style={styles.value}>{formatCompactCurrency(trade.value)}</Text><Text style={styles.time}>{formatFiledAt(trade.filedAt)} UTC</Text></View></View>
   </Pressable>;
 }

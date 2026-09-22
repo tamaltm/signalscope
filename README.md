@@ -49,7 +49,7 @@ This command requires an authenticated Expo account. A locally compiled preview 
 ## Submission artifacts
 
 - APK: `deliverables/SignalScope-1.0.0-preview.apk` (45 MB, locally built for `arm64-v8a` and `x86_64`)
-- Demo: `deliverables/SignalScope-demo.mp4` (1 minute 54 seconds)
+- Demo: `deliverables/SignalScope-demo.mp4` (2 minutes 57 seconds)
 - Screenshots: `screenshots/01-market-pulse.png`, `screenshots/02-latest-trades.png`, and `screenshots/03-trade-details.png`
 - APK SHA-256: `17180921ffb72baba5731a85ed770760f69f4298f1f838b835f606b3a4f81312`
 

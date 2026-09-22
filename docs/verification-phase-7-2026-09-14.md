@@ -26,8 +26,8 @@ Recovery checkpoint: pushed commit `787c4de`.
 - Android UI hierarchy exposed the labeled search field, selected filter states, navigation buttons, trade buttons, and matching transaction values.
 - No application crash or React Native red-screen occurred.
 - Three 720×1560 PNG screenshots were captured from the installed APK.
-- The final 1-minute-54-second MP4 walkthrough was visually spot-checked across the complete flow: Market Pulse, search plus combined filters, Trade Details, chart and educational/disclaimer content, preserved filter state after back navigation, empty-state recovery, and the closing return to Market Pulse.
-- Final demo SHA-256: `c0fe4556532e57b6276f24fb6d27a6e2d9e67b7bf42bb086b82cb07ea5067f61`.
+- The final 2-minute-57-second MP4 walkthrough was visually spot-checked across the complete flow: Market Pulse, search plus combined filters, Trade Details, chart and educational/disclaimer content, preserved filter state after back navigation, empty-state recovery, the closing return to Market Pulse, and an opening caption explaining the Purchase/Sale text-arrow-color decision.
+- Final demo SHA-256: `b583dee87ae73cd041eb6351b3b5a5cebd5d88736714881c26a833cd488a725d`.
 
 ## Not checked
 

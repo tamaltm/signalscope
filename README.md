@@ -53,7 +53,7 @@ This command requires an authenticated Expo account. A locally compiled preview 
 - Screenshots: [1](https://drive.google.com/file/d/1_wXbb-1zDFES8KzrUQqJNKCWvI5A1yo4/view?usp=sharing), [2](https://drive.google.com/file/d/1GACwqs6g2Xprrvu-ZbFpbBYXbUCh3qTF/view?usp=sharing), and [3](https://drive.google.com/file/d/1Klwy9mtNaRyO0PEPzfsqNjmJ4TLeav8s/view?usp=sharing)
 - APK SHA-256: `17180921ffb72baba5731a85ed770760f69f4298f1f838b835f606b3a4f81312`
 
-The APK and video are intentionally excluded from Git history. Publish them through a GitHub Release or the assignment's Drive delivery folder, then add those final URLs here before submission.
+The APK and video are intentionally excluded from Git history; downloadable copies live at the Drive links above.
 
 ## Design and implementation decisions
 
@@ -82,7 +82,12 @@ The APK and video are intentionally excluded from Git history. Publish them thro
 
 ## AI-use disclosure
 
-Codex was used as a development assistant for requirements organization, technical planning, implementation support, code review, testing, and troubleshooting. SignalScope itself contains no AI model, prompt, agent, telemetry, or AI-facing runtime integration. The candidate remains responsible for reviewing, understanding, testing, explaining, and submitting the work.
+The following AI tools were used during development, each in a specific supporting role:
+
+- **npx-vibeworkflow** — used to follow a structured, professional vibe-coding workflow throughout development, and to run proper testing on the implementation it produced at the end of each stage.
+- **Codex** — used as a development assistant for requirements organization, technical planning, implementation support, code review, testing, and troubleshooting.
+
+SignalScope itself contains no AI model, prompt, agent, telemetry, or AI-facing runtime integration. The candidate remains responsible for reviewing, understanding, testing, explaining, and submitting the work.
 
 ## Required disclaimer
 

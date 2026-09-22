@@ -48,9 +48,9 @@ This command requires an authenticated Expo account. A locally compiled preview 
 
 ## Submission artifacts
 
-- APK: `https://drive.google.com/file/d/1cIeZRL2ZX5SdxOWvhZNgzQqgD2gur-18/view?usp=sharing` (45 MB, locally built for `arm64-v8a` and `x86_64`)
-- Demo: `https://drive.google.com/file/d/19XM4c292_MkOKjdp39Cj7D_FnaFGFbRm/view?usp=sharing` (2 minutes 57 seconds)
-- Screenshots: `https://drive.google.com/file/d/1_wXbb-1zDFES8KzrUQqJNKCWvI5A1yo4/view?usp=sharing`, `https://drive.google.com/file/d/1GACwqs6g2Xprrvu-ZbFpbBYXbUCh3qTF/view?usp=sharing`, and `https://drive.google.com/file/d/1Klwy9mtNaRyO0PEPzfsqNjmJ4TLeav8s/view?usp=sharing`
+- APK: [SignalScope-1.0.0-preview.apk](https://drive.google.com/file/d/1cIeZRL2ZX5SdxOWvhZNgzQqgD2gur-18/view?usp=sharing) (45 MB, locally built for `arm64-v8a` and `x86_64`)
+- Demo: [SignalScope-demo.mp4](https://drive.google.com/file/d/19XM4c292_MkOKjdp39Cj7D_FnaFGFbRm/view?usp=sharing) (2 minutes 57 seconds)
+- Screenshots: [1](https://drive.google.com/file/d/1_wXbb-1zDFES8KzrUQqJNKCWvI5A1yo4/view?usp=sharing), [2](https://drive.google.com/file/d/1GACwqs6g2Xprrvu-ZbFpbBYXbUCh3qTF/view?usp=sharing), and [3](https://drive.google.com/file/d/1Klwy9mtNaRyO0PEPzfsqNjmJ4TLeav8s/view?usp=sharing)
 - APK SHA-256: `17180921ffb72baba5731a85ed770760f69f4298f1f838b835f606b3a4f81312`
 
 The APK and video are intentionally excluded from Git history. Publish them through a GitHub Release or the assignment's Drive delivery folder, then add those final URLs here before submission.
